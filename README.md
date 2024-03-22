@@ -9,9 +9,13 @@ Git : Logiciel de gestion de version
 GitHub : Forge logicielle en ligne utilisant Git
 
 # Pour l'épreuve E4
-Je me présente et présente mon parcours, j'affiche mon CV
-Je parle des projets que j'ai réalisé, je bascule sur les pages correspondantes
-Je parle des stages que j'ai effectué et des projets auxquels j'ai participé, je bascule sur les pages correspondantes
+Je me présente et présente mon parcours
+j'affiche mon CV
+Je parle des projets que j'ai réalisé
+je bascule sur les pages correspondantes
+Je parle des stages que j'ai effectué et des projets auxquels j'ai participé
+je bascule sur les pages correspondantes
+
 Je présente mes bonnes pratiques :
 Respect des normes et des standards
 Auto-formation
@@ -25,5 +29,6 @@ J'héberge les documents présentant le contexte de mes AP
 J'héberge le code source de mes AP
 J'héberge mes productions (compte-rendus, documentations techniques, documentations utilisateurs, ...)
 J'ajoute des liens vers les applications téléchargeables ou testables en ligne
-5. Pour mon identité numérique
+
+# Pour mon identité numérique
 Cela permettra de me faire référencer par les moteurs de recherches (là aussi si on me recherche suite à ma rencontre ou à la reception de mon CV)
