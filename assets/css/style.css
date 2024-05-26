@@ -1338,3 +1338,10 @@ button, input, textarea:focus {
 	height: 100%;
 	border: none;
 }
+
+.badge {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 1.2em;
+}
