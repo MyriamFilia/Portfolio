@@ -29,24 +29,16 @@
         /* Le conteneur principal (la carte) */
         .card {
             background: white;
-            padding: 50px 40px;
-            border-radius: 15px;
+            padding: 60px 40px; /* Un peu plus d'espace en haut vu qu'il n'y a plus d'icône */
+            border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             max-width: 600px;
             width: 100%;
-            border-top: 5px solid #0a66c2; /* Touche de bleu LinkedIn */
-        }
-
-        /* Icone animée */
-        .icon {
-            font-size: 4rem;
-            margin-bottom: 20px;
-            display: inline-block;
-            animation: float 3s ease-in-out infinite;
+            border-top: 6px solid #0a66c2; /* Touche de bleu LinkedIn */
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: 2.2rem;
             font-weight: 700;
             color: #2c3e50;
             margin-bottom: 10px;
@@ -56,7 +48,7 @@
             font-size: 1.1rem;
             font-weight: 600;
             color: #0a66c2; /* Bleu professionnel */
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -80,46 +72,38 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(10, 102, 194, 0.3);
+            box-shadow: 0 4px 15px rgba(10, 102, 194, 0.2);
         }
 
         .btn-linkedin:hover {
             background-color: #004182;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(10, 102, 194, 0.4);
+            box-shadow: 0 6px 20px rgba(10, 102, 194, 0.3);
         }
 
         .footer-note {
-            margin-top: 30px;
+            margin-top: 40px;
             font-size: 0.8rem;
             color: #999;
         }
 
-        /* Petite animation pour rendre la page vivante */
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-
         /* Responsive pour mobile */
         @media (max-width: 480px) {
-            h1 { font-size: 1.5rem; }
+            h1 { font-size: 1.8rem; }
             h2 { font-size: 0.9rem; }
-            .card { padding: 30px 20px; }
+            .card { padding: 40px 20px; }
         }
     </style>
 </head>
 <body>
 
     <div class="card">
-        <div class="icon">🚀</div>
         
         <h1>Filia DA SILVA</h1>
         <h2>Analyste Cybersécurité GRC & Cloud</h2>
         
         <p>
-            <strong>Mon portfolio fait peau neuve !</strong><br>
+            <strong>Mon portfolio est en cours de mise à jour.</strong><br>
             Je refonds actuellement mon site pour présenter mes nouveaux projets axés sur la 
             Gouvernance, la Gestion des Risques (GRC) et la Sécurité Cloud.
         </p>
