@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filia DA SILVA - Profil en évolution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reset et style de base pour une page propre */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Le conteneur principal (la carte) */
+        .card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            max-width: 600px;
+            width: 100%;
+            border-top: 5px solid #0a66c2; /* Touche de bleu LinkedIn */
+        }
+
+        /* Icone animée */
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0a66c2; /* Bleu professionnel */
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Le bouton d'action */
+        .btn-linkedin {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0a66c2;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(10, 102, 194, 0.3);
+        }
+
+        .btn-linkedin:hover {
+            background-color: #004182;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(10, 102, 194, 0.4);
+        }
+
+        .footer-note {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        /* Petite animation pour rendre la page vivante */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Responsive pour mobile */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 0.9rem; }
+            .card { padding: 30px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon">🚀</div>
+        
+        <h1>Filia DA SILVA</h1>
+        <h2>Analyste Cybersécurité GRC & Cloud</h2>
+        
+        <p>
+            <strong>Mon portfolio fait peau neuve !</strong><br>
+            Je refonds actuellement mon site pour présenter mes nouveaux projets axés sur la 
+            Gouvernance, la Gestion des Risques (GRC) et la Sécurité Cloud.
+        </p>
+        
+        <p>
+            En attendant, retrouvez mon parcours détaillé, mes certifications et mes compétences mises à jour sur mon profil LinkedIn.
+        </p>
+
+        <a href="https://www.linkedin.com/in/filiadasilva" class="btn-linkedin">
+            Voir mon profil LinkedIn &rarr;
+        </a>
+
+        <div class="footer-note">
+            &copy; 2025 Filia DA SILVA. Tous droits réservés.
+        </div>
+    </div>
+
+</body>
+</html>
